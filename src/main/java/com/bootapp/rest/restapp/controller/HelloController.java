@@ -10,4 +10,9 @@ public class HelloController {
 	public String HelloApi() {
 		return "Hello World";
 	}
+	
+	@GetMapping("/api/helloapi2")
+	public String HelloApi2() {
+		return "Hello World2";
+	}
 }
